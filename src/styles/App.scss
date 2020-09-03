@@ -1,0 +1,171 @@
+@import "../styles/fonts.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Trebuchet MS";
+  background: url(../img/Pattern.png);
+  width: 100vw;
+  height: 100vh;
+}
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  &__title {
+    font-family: "Exo2.0";
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+.card {
+  width: 294px;
+  height: 435px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+  &-list {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  &-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+  &-span {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    z-index: 2;
+    margin-left: 45px;
+    margin-top: 16px;
+  }
+  &-title {
+    font-size: 48px;
+    z-index: 2;
+    margin-left: 42px;
+  }
+  &-subtitle {
+    font-size: 24px;
+    z-index: 2;
+    margin-left: 42px;
+    margin-bottom: 10px;
+  }
+  &-count,
+  &-present {
+    font-size: 14px;
+    color: #666666;
+    z-index: 2;
+    margin-left: 42px;
+  }
+  &-circle,
+  &-circle_active {
+    font-size: 42px;
+    color: #ffffff;
+    line-height: 0.524;
+    border-radius: 50%;
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    z-index: 2;
+    bottom: 11px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    & > span {
+      font-size: 22px;
+      margin-top: 10px;
+    }
+  }
+  &-circle {
+    background-color: #1698d9;
+    &_active {
+      background-color: #d91667;
+    }
+  }
+  &-cat {
+    width: 266px;
+    height: 246px;
+    z-index: 2;
+    background-image: url(../img/cat.png);
+    background-repeat: no-repeat;
+    background-size: 130% 142%;
+    background-position: 34% 0%;
+    position: absolute;
+    bottom: 3px;
+    right: 24px;
+    border-radius: 12px;
+    image-rendering: pixelated;
+  }
+  &-subitem {
+    margin-top: 12px;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    line-height: 1.231;
+    text-shadow: 0.5px 0.866px 1px rgb(0, 0, 0);
+  }
+  &-buy {
+    color: #138ac6;
+  }
+  &:hover > &-circle {
+    background-color: #d91667;
+  }
+  &:hover .svg .stroke {
+    stroke: #d91667;
+  }
+}
+
+.stroke {
+  stroke: #1698d9;
+  &_active {
+    stroke: #d91667;
+  }
+}
+.disabled {
+  user-select: none;
+  & .card-subitem {
+    color: rgb(255, 255, 102);
+  }
+  & .card .svg > .stroke {
+    stroke: #b3b3b3;
+  }
+  & .card .card-circle {
+    background: #b3b3b3;
+  }
+  & .card .svg-disabled {
+    fill: rgb(217, 220, 222);
+    z-index: 3;
+    fill-opacity: 0.7;
+  }
+}
+.btn {
+  outline: none;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-bottom: 1px dashed #138ac6;
+}
+.svg {
+  width: 100%;
+  height: 100%;
+  fill: #ffffff;
+  position: absolute;
+  z-index: -1;
+}
