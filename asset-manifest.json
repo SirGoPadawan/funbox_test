@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/funbox_test/static/css/main.0bfc9589.chunk.css",
+    "main.css": "/funbox_test/static/css/main.5f664f9e.chunk.css",
     "main.js": "/funbox_test/static/js/main.8058da45.chunk.js",
     "main.js.map": "/funbox_test/static/js/main.8058da45.chunk.js.map",
     "runtime-main.js": "/funbox_test/static/js/runtime-main.e0129ce5.js",
@@ -8,16 +8,16 @@
     "static/js/2.b6c44eb6.chunk.js": "/funbox_test/static/js/2.b6c44eb6.chunk.js",
     "static/js/2.b6c44eb6.chunk.js.map": "/funbox_test/static/js/2.b6c44eb6.chunk.js.map",
     "index.html": "/funbox_test/index.html",
-    "precache-manifest.20477ecb1a6ea4b4600aae07971a59a7.js": "/funbox_test/precache-manifest.20477ecb1a6ea4b4600aae07971a59a7.js",
+    "precache-manifest.6fe5886565dc5fcd4b493b8ebfeba717.js": "/funbox_test/precache-manifest.6fe5886565dc5fcd4b493b8ebfeba717.js",
     "service-worker.js": "/funbox_test/service-worker.js",
-    "static/css/main.0bfc9589.chunk.css.map": "/funbox_test/static/css/main.0bfc9589.chunk.css.map",
+    "static/css/main.5f664f9e.chunk.css.map": "/funbox_test/static/css/main.5f664f9e.chunk.css.map",
     "static/js/2.b6c44eb6.chunk.js.LICENSE.txt": "/funbox_test/static/js/2.b6c44eb6.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/funbox_test/static/media/cat.ac7421e9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e0129ce5.js",
     "static/js/2.b6c44eb6.chunk.js",
-    "static/css/main.0bfc9589.chunk.css",
+    "static/css/main.5f664f9e.chunk.css",
     "static/js/main.8058da45.chunk.js"
   ]
 }

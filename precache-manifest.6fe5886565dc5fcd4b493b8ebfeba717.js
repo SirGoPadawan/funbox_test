@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a85d7fd33638859062d5b33034f8fea4",
+    "revision": "a8d55f93a45c4bfffc3a6caf48cb8e40",
     "url": "/funbox_test/index.html"
   },
   {
-    "revision": "45c97de084958ea25238",
-    "url": "/funbox_test/static/css/main.0bfc9589.chunk.css"
+    "revision": "c0ee87449983f4904d07",
+    "url": "/funbox_test/static/css/main.5f664f9e.chunk.css"
   },
   {
     "revision": "090addee3fb200d6eebf",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funbox_test/static/js/2.b6c44eb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "45c97de084958ea25238",
+    "revision": "c0ee87449983f4904d07",
     "url": "/funbox_test/static/js/main.8058da45.chunk.js"
   },
   {
@@ -24,16 +24,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/funbox_test/static/js/runtime-main.e0129ce5.js"
   },
   {
-    "revision": "1ad23c4836288e76b8cfbd820309c709",
-    "url": "/funbox_test/static/media/Exo2.0.1ad23c48.eot"
+    "revision": "2e90c8c51448fe57a302c14658f3c002",
+    "url": "/funbox_test/static/media/Exo2_0.2e90c8c5.svg"
   },
   {
-    "revision": "2df94e7628d43e979de9144e70b91a4d",
-    "url": "/funbox_test/static/media/Exo2.0.2df94e76.ttf"
+    "revision": "45f464c8a4ab926819bbac300ba45296",
+    "url": "/funbox_test/static/media/Exo2_0.45f464c8.woff"
   },
   {
-    "revision": "44bde8744ccc0de7995a23b0e82dd281",
-    "url": "/funbox_test/static/media/Exo2.0.44bde874.otf"
+    "revision": "645e45358c2defcfb680c906157a98e1",
+    "url": "/funbox_test/static/media/Exo2_0.645e4535.woff2"
+  },
+  {
+    "revision": "aae79b9585e15ed199b05669e2281e95",
+    "url": "/funbox_test/static/media/Exo2_0.aae79b95.eot"
+  },
+  {
+    "revision": "e5cec8eb10b26462bd69fb74399087f0",
+    "url": "/funbox_test/static/media/Exo2_0.e5cec8eb.ttf"
   },
   {
     "revision": "45892daabe25ac208bfd90f3915754a2",
