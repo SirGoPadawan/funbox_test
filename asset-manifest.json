@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/funbox_test/static/css/main.831ab0cd.chunk.css",
+    "main.css": "/funbox_test/static/css/main.53f3ef48.chunk.css",
     "main.js": "/funbox_test/static/js/main.8058da45.chunk.js",
     "main.js.map": "/funbox_test/static/js/main.8058da45.chunk.js.map",
     "runtime-main.js": "/funbox_test/static/js/runtime-main.e0129ce5.js",
@@ -8,16 +8,16 @@
     "static/js/2.b6c44eb6.chunk.js": "/funbox_test/static/js/2.b6c44eb6.chunk.js",
     "static/js/2.b6c44eb6.chunk.js.map": "/funbox_test/static/js/2.b6c44eb6.chunk.js.map",
     "index.html": "/funbox_test/index.html",
-    "precache-manifest.836b401314795edc43fba302a872d47c.js": "/funbox_test/precache-manifest.836b401314795edc43fba302a872d47c.js",
+    "precache-manifest.ec56048440e934d15da2c2dd05b451f9.js": "/funbox_test/precache-manifest.ec56048440e934d15da2c2dd05b451f9.js",
     "service-worker.js": "/funbox_test/service-worker.js",
-    "static/css/main.831ab0cd.chunk.css.map": "/funbox_test/static/css/main.831ab0cd.chunk.css.map",
+    "static/css/main.53f3ef48.chunk.css.map": "/funbox_test/static/css/main.53f3ef48.chunk.css.map",
     "static/js/2.b6c44eb6.chunk.js.LICENSE.txt": "/funbox_test/static/js/2.b6c44eb6.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/funbox_test/static/media/cat.ac7421e9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e0129ce5.js",
     "static/js/2.b6c44eb6.chunk.js",
-    "static/css/main.831ab0cd.chunk.css",
+    "static/css/main.53f3ef48.chunk.css",
     "static/js/main.8058da45.chunk.js"
   ]
 }
